@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/images/background-spider-man.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 50vw;
+  color: white;
+}
+
+/* CONTAINERS PRINCIPAIS */
+.main-container {
+  display: block;
+  background-image: url("/images/background-menu-spider-man.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.main-second-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.main-third-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+/* Página do Meio */
+.container-spider-principal {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+/* header */
+.container-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-top-ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  padding: 10px;
+    list-style: none;
+  text-decoration: none;
+}
+
+.menu-img {
+  filter: invert(100);
+}
+
+.link-blue {
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-shadow: rgb(80, 77, 77) 3px 2px 3px;
+}
+
+.container-top-ul-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.li-icons{
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+/* Lançamento do Jogo */
+.container-second-principal {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 130px;
+  margin-left: 55%;
+}
+
+.container-paragrafo-spider {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.container-titulo-spider {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+/* Conteudo */
+.container-spider-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 75%;
+  height: auto;
+  margin-top: 80px;
+}
+
+.paragrafo-spider-menu {
+  width: 50%;
+  font-weight: 400;
+}
+
+/* Container dos Botões */
+
+.buttons-container-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 150px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  color: aliceblue;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-container1:hover {
+  background-color: rgb(97, 7, 7);
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.button-link-blue1 {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.button-container2 {
+  width: 150px;
+  height: 50px;
+  background: transparent;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  text-shadow: rgb(0, 0, 0) 3px 2px 3px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.button-container2:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.fa-play {
+  color: white;
+  margin-right: 10px;
+}
+
